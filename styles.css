@@ -1,0 +1,196 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+.container {
+  display: flex;
+}
+
+.box-1 {
+  flex: 2;
+  background-image: url(https://online.alat.ng/static/media/login-banner.1c3be38003c961098eed.png);
+  background-repeat: no-repeat;
+  width: 100%;
+  height: 100vh;
+  color: white;
+  display: flex;
+  padding: 20px;
+}
+
+.box-1 .box-1-content {
+  margin: auto auto 60px auto;
+}
+
+.talk h4 {
+  margin-bottom: 20px;
+  font-weight: normal;
+  font-size: larger;
+}
+
+.talk p {
+  font-weight: 100;
+  font-size: medium;
+  font-family: proxima-nova, sans-serif;
+}
+
+.box-2 {
+  flex: 1;
+  width: 100vw;
+  height: 100vh;
+  margin: 0 34px;
+  padding: 60px 100px;
+  display: block;
+}
+
+.box-2 h5 {
+  text-align: center;
+  margin-top: 10%;
+}
+
+.box-2 h5 a {
+  text-decoration: none;
+  color: rgb(170, 37, 86);
+  font-size: larger;
+  font-weight: 300;
+}
+
+.alat:hover {
+  text-decoration: underline;
+}
+
+.box-2 .logos {
+  display: flex;
+  margin-top: 10%;
+}
+
+img {
+  width: 80px;
+  height: 70px;
+}
+
+.logos h6 {
+  font-weight: normal;
+  font-size: medium;
+  margin-top: 20px;
+  color: rgb(133, 132, 132);
+}
+
+.logos .cbn {
+  width: 20px;
+  height: 30px;
+  margin: 10px;
+}
+
+.welcome {
+  margin-top: 32px;
+}
+
+.welcome h2 {
+  color: rgb(77, 77, 77);
+  font-weight: normal;
+}
+
+hr {
+  margin: 10px 0 40px 0;
+  width: 40px;
+  height: 4px;
+  background-color: rgb(170, 37, 86);
+  border: none;
+}
+
+label{
+    font-weight: normal;
+    color: rgb(133, 129, 129);
+}
+
+input {
+  display: block;
+  width: 100%;
+  margin: 10px 0;
+  padding: 10px;
+  border-radius: 5px;
+  border: 1px solid #ccc;
+  padding: 13px;
+}
+
+input:focus {
+  outline: none;
+}
+
+.password-cont {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  width: 100%;
+  margin-bottom: 10px;
+}
+
+.forgot-password {
+  font-size: 14px;
+  color: rgb(170, 37, 86);
+  text-decoration: none;
+}
+
+.forgot-password:hover {
+  text-decoration: underline;
+}
+
+.btn button {
+  background-color: rgb(170, 37, 86);
+  color: white;
+  height: 47px;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+  width: 100%;
+  margin: 25px 0 0 0;
+  text-align: center;
+}
+
+.btn button:hover {
+  background-color: rgb(172, 17, 74);
+}
+
+.sign-up {
+  margin: 25px 0 0 0;
+  text-align: center;
+  color: rgb(77, 77, 77);
+}
+
+.sign-up h6 {
+  font-weight: normal;
+  font-size: medium;
+  color: rgb(133, 129, 129);
+}
+
+.sign-up a {
+  text-decoration: none;
+  color: rgb(170, 37, 86);
+  font-size: medium;
+}
+
+.contact {
+  display: flex;
+  margin-top: 20px;
+  color: white;
+  font-weight: normal;
+  font-size: medium;
+}
+
+.contact a {
+  text-decoration: none;
+  font-family: proxima-nova, sans-serif;
+  color: white;
+  margin: 0 15px;
+  font-weight: normal;
+}
+
+.social-media {
+  display: flex;
+  margin: 20px 0 0 0;
+  gap: 20px;
+  color: white;
+  font-size: xx-large;
+}
